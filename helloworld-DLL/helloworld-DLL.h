@@ -6,4 +6,4 @@
 #define helloworld-DLL_API __declspec(dllimport)
 #endif
 
-
+extern "C" helloworld-DLL_API void hello();
